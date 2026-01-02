@@ -86,6 +86,11 @@ li {
     transition: transform 0.3s ease;
 }
 
+.apresentacao_imagem_logo{
+    width: 60px;
+    height: 60px;
+}
+
 .apresentacao_icone{
     width: 40px;
     height: 40px;
@@ -140,6 +145,10 @@ li {
 }
 
 .apresentacao__imagem:hover {
+    transform: scale(1.1);
+}
+
+.apresentacao_imagem_logo:hover {
     transform: scale(1.1);
 }
 
